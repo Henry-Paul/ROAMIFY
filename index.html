@@ -36,12 +36,12 @@
       "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
       "@id": "https://www.wanderindia.com",
       "url": "https://www.wanderindia.com",
-      "telephone": "+919876543210",
+      "telephone": "+917993832828",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "123 Travel Hub, MG Road",
-        "addressLocality": "Bangalore",
-        "postalCode": "560001",
+        "streetAddress": "Malkajgiri",
+        "addressLocality": "Hyderabad",
+        "postalCode": "500047",
         "addressCountry": "IN"
       },
       "geo": {
@@ -572,7 +572,7 @@
     <!-- JAVASCRIPT LOGIC & DATA -->
     <script>
         // --- GLOBAL CONFIGURATION ---
-        const WHATSAPP_NUMBER = "919876543210"; // Agency Phone Number
+        const WHATSAPP_NUMBER = "917993832828"; // Agency Phone Number
         
         function openWhatsApp(message) {
             const url = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
@@ -601,8 +601,8 @@
                     { day: 4, title: 'Departure', desc: 'Depart with beautiful festive memories.' }
                 ],
                 faqs: [
-                    { q: 'Is it safe during the firecrackers?', a: 'Yes, we ensure safe, premium viewing spots away from heavy public firecracker zones.' },
-                    { q: 'Are traditional clothes provided?', a: 'We can arrange bespoke local shopping tours for traditional attire upon arrival.' }
+                    { q: 'What is the best time to visit Spiti Valley?', a: 'The best time to visit Spiti Valley is between May and October, when the roads from Manali and Shimla are open and accessible. During May and June, you can still experience snow while having motorable roads. From July to September, the weather is more pleasant and ideal for most travelers. October offers fewer crowds but colder temperatures. Winters are extremely harsh and most routes remain closed..' },
+                    { q: 'Is Spiti safe for solo travelers and bikers?', a: 'Spiti is considered safe for solo travelers and bikers, and many people explore the region independently. The main challenges come from the terrain and weather rather than safety concerns. Roads can be rough and unpredictable, and weather conditions may change suddenly. Medical facilities are limited, so planning ahead and traveling cautiously is important.' }
                 ]
             },
             { 
@@ -625,30 +625,29 @@
                     { day: 5, title: 'Departure', desc: 'Drop off at Bhuj airport or railway station.' }
                 ],
                 faqs: [
-                    { q: 'How cold does it get?', a: 'Nights in the desert drop to 5-10°C in December. Warm clothes are highly recommended.' }
+                    { q: 'What makes Gokarna a good destination for beach lovers?', a: 'Dandeli is a hotspot for adventure and nature lovers, famous for activities like river rafting on the Kali River, jungle safaris, kayaking, and trekking. The region is surrounded by dense forests and wildlife, making it perfect for those who enjoy outdoor experiences and eco-tourismDandeli is a hotspot for adventure and nature lovers, famous for activities like river rafting on the Kali River, jungle safaris, kayaking, and trekking. The region is surrounded by dense forests and wildlife, making it perfect for those who enjoy outdoor experiences and eco-tourism.' }
                 ]
             },
             { 
-                id: 'ev3', title: 'Hornbill Festival', date: 'Dec 1 - 10', location: 'Nagaland', theme: 'bg-green-700', icon: 'music', 
-                image: 'https://images.unsplash.com/photo-1621235313904-4b52b22070ab?auto=format&fit=crop&q=80&w=400',
-                bgImage: 'https://images.unsplash.com/photo-1621235313904-4b52b22070ab?auto=format&fit=crop&q=80&w=2000',
-                mapUrl: 'https://maps.google.com/maps?q=Kisama+Heritage+Village,Nagaland&t=&z=12&ie=UTF8&iwloc=&output=embed',
-                tagline: 'Festival of Festivals',
-                description: 'Immerse yourself in the rich tribal heritage of Nagaland. Experience music, war dances, and authentic Naga cuisine at the Kisama Heritage Village.',
+                id: 'ev1', title: 'Spiti Expedition', date: 'Jun 26 - Jul 03', location: 'Himachal Pradesh', theme: 'bg-orange-600', icon: 'flame', 
+               image: 'https://images.unsplash.com/photo-1542144616-1b4d24599723?auto=format&fit=crop&q=80&w=400', bgImage: 'https://images.unsplash.com/photo-1542144616-1b4d24599723?auto=format&fit=crop&q=80&w=2000',
+                mapUrl: 'https://maps.google.com/maps?q=Dashashwamedh+Ghat,Varanasi&t=&z=14&ie=UTF8&iwloc=&output=embed',
+                tagline: 'THE SPITI EXPEDITION',
+                description: 'Experience the rough terrain, Holy & Ancient Monasteries, High Motarable Raods, and the raw beauty of Himalayas and wake up to the landscapes that dont feel REAL.',
                 packages: [
-                    { name: '4 DAYS', popular: false, price: 14500, points: ['Dimapur', 'Kohima', 'Kisama Village', 'Departure'] },
-                    { name: '6 DAYS', popular: true, price: 22500, points: ['Dimapur', 'Kohima', 'Kisama Festivities', 'Khonoma Green Village', 'Dzukou Valley Trek Base'] },
-                    { name: '8 DAYS', popular: false, price: 31000, points: ['Dimapur', 'Kohima', 'Kisama', 'Mokokchung', 'Tribal Villages', 'Departure'] }
+                    { name: '3 DAYS', popular: false, price: 13999, points: ['Manali to Chandra Taal', 'Chandra Taal to Manali'] },
+                    { name: '6 DAYS', popular: true, price: 18999, points: ['Manali to Chandra Taal', 'Chandra Tall to Kaza', 'Kaza to Manali'] },
+                    { name: '8 DAYS', popular: false, price: 25999, points: ['Delhi / Chandighar to Shimla', 'Shimla to Chitkul', 'Chitkul to Kalpa', 'Kalpa to Tabo' , 'Tabo to Kaza', 'Kaza to Chandra Taal', 'Chandra Taal to Manali'] }
                 ],
                 itineraryNodes: [
-                    { day: 1, title: 'Arrival in Dimapur', desc: 'Scenic drive to Kohima. Acclimatize and relax in your boutique stay.' },
-                    { day: 2, title: 'Hornbill Day 1', desc: 'Attend the opening ceremonies, tribal war dances, and log drum beats at Kisama.' },
-                    { day: 3, title: 'Hornbill Day 2', desc: 'Enjoy the Rock contest, night bazaar, and local rice beer (Zutho) tasting.' },
-                    { day: 4, title: 'Khonoma Village', desc: 'Visit Asia’s first green village, Khonoma, to understand Naga conservation.' },
-                    { day: 5, title: 'Departure', desc: 'Drive back to Dimapur for your onward flight.' }
+                    { day: 1, title: 'Arrival & Welcome', desc: 'Arrive in the festive city. Traditional welcome and evening market walk.' },
+                    { day: 2, title: 'Grand Celebrations', desc: 'Participate in local Diwali preparations, Rangoli making, and evening Puja.' },
+                    { day: 3, title: 'Festival of Lights', desc: 'Witness the breathtaking illumination of ghats or palaces. Spectacular firework displays.' },
+                    { day: 4, title: 'Departure', desc: 'Depart with beautiful festive memories.' }
                 ],
                 faqs: [
-                    { q: 'Is Inner Line Permit (ILP) required?', a: 'Yes, ILP is mandatory for domestic tourists. Our team procures it for you in advance.' }
+                    { q: 'What is the best time to visit Spiti Valley?', a: 'The best time to visit Spiti Valley is between May and October, when the roads from Manali and Shimla are open and accessible. During May and June, you can still experience snow while having motorable roads. From July to September, the weather is more pleasant and ideal for most travelers. October offers fewer crowds but colder temperatures. Winters are extremely harsh and most routes remain closed..' },
+                    { q: 'Is Spiti safe for solo travelers and bikers?', a: 'Spiti is considered safe for solo travelers and bikers, and many people explore the region independently. The main challenges come from the terrain and weather rather than safety concerns. Roads can be rough and unpredictable, and weather conditions may change suddenly. Medical facilities are limited, so planning ahead and traveling cautiously is important.' }
                 ]
             },
             { 
